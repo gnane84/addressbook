@@ -17,7 +17,7 @@ stages {
      },
         job2: {
              sh """
-             cat /etc/passwd
+             cat /etc/passwd > /tmp/demo.txt
              """
 
         }
